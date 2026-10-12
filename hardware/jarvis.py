@@ -26,7 +26,7 @@ from comtypes import CLSCTX_ALL
 from pycaw.pycaw import AudioUtilities, IAudioEndpointVolume
 
 # ---------- CONFIG ----------
-GROQ_API_KEY = os.environ.get("GROQ_API_KEY", "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")
+GROQ_API_KEY = os.environ.get("GROQ_API_KEY", "")
 ASSISTANT_NAME = "Jarvis"
 MODEL = "openai/gpt-oss-20b"
 VOICE_NAME = "en-GB-RyanNeural"
